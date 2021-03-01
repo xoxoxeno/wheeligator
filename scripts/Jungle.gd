@@ -7,4 +7,4 @@ func _process(_delta):
 func debug_info():
 
 	$UILayer/DebugUI.show()
-	$UILayer/DebugUI/DebugPanel/Label.text = "Tires: " + str($WorldLayer/Wheeligator.tires)
+	$UILayer/DebugUI/DebugPanel/Label.text = "Tires: " + str($Wheeligator.tires)
